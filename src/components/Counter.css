@@ -1,4 +1,4 @@
-/* src/App.css */
+/* src/components/Counter.css */
 .counter-container {
   background-color: #ffffff;
   padding: 20px;
@@ -7,13 +7,24 @@
   text-align: center;
 }
 
+.title {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
 .button-container {
   margin-top: 20px;
 }
 
 .btn {
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem; /* Ukuran font diperbesar untuk simbol */
   border: none;
   border-radius: 5px;
   cursor: pointer;
